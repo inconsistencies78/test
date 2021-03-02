@@ -1,0 +1,34 @@
+auf einheitliche bennenung der resourcen achten. zb "azurerm_res..." "CoBa_TUD" // name = var.name_CoBa_TUD
+
+was fehlt uns an TF modulen
+key vaults - backup policy
+
+unklar
+insights diagnostics 
+security pricings
+
+
+was ist da?
+azurerm_monitor_diagnostic_setting
+https://registry.terraform.io/providers/hashicorp/azurerm/latest/docs/resources/monitor_diagnostic_setting
+import möglich
+
+azurerm_key_vault
+https://registry.terraform.io/providers/hashicorp/azurerm/latest/docs/resources/key_vault
+import möglich
+
+azurerm_recovery_services_vault
+https://registry.terraform.io/providers/hashicorp/azurerm/latest/docs/resources/recovery_services_vault
+import möglich
+
+azurerm_role_assignment
+https://registry.terraform.io/providers/hashicorp/azurerm/latest/docs/resources/role_assignment
+import möglich
+
+azurerm_security_center_subscription_pricing
+https://registry.terraform.io/providers/hashicorp/azurerm/latest/docs/resources/security_center_subscription_pricing
+import möglich
+
+neue rollen definitionen erstellen
+nur mit höherem AZ-AD 
+RG -> acces control -> add -> role role_assignment -> role "reader" -> assign access to "RG"
